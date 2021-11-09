@@ -4,16 +4,16 @@ error_reporting(0);
 $CONF = $TMPL = array();
 
 // The MySQL credentials
-$CONF['host'] = 'localhost';
-$CONF['user'] = 'YOURDBUSER';
-$CONF['pass'] = 'YOURDBPASS';
-$CONF['name'] = 'YOURDBNAME';
+$CONF['host'] = 'remotemysql.com';
+$CONF['user'] = 'j5X1G5y42a';
+$CONF['pass'] = 'BGfjx6DsBu';
+$CONF['name'] = 'j5X1G5y42a';
 
 // The Installation URL
-$CONF['url'] = 'http://yourdomain.com';
+$CONF['url'] = 'https://reprisee.herokuapp.com';
 
 // The Notifications e-mail
-$CONF['email'] = 'notifications@yourdomain.com';
+$CONF['email'] = 'droidcv1@gmail.com';
 
 // The themes directory
 $CONF['theme_path'] = 'themes';
